@@ -104,7 +104,7 @@
         font-size: 16px
     }
 
-    .game-details h2{
+    .game-details h2 {
         font-size: 14px;
         font-weight: normal;
         margin-left: 0;
@@ -163,6 +163,7 @@
         font-size: 15px;
     }
 }
+
 /* tablet responsive code here  */
 @media (min-width: 426px) and (max-width: 1024px) {
 
@@ -170,82 +171,97 @@
     .nav-items li a {
         padding: 2px;
     }
+
     .nav-items li {
- 
+
         font-size: 12px;
     }
+
     .button,
     .fa-sign-in-alt {
         font-size: 12px;
         margin-right: 10px;
         color: #ffffff;
     }
-     /* all tablet grid css here */
+
+    /* all tablet grid css here */
 
     .players-wrap,
     .banner-wrapper,
     .highlight,
     .games-schedule-wrap {
         grid-template-columns: repeat(2, 1fr);
-        justify-items: center;    
-        gap: 50px; 
+        justify-items: center;
+        gap: 50px;
     }
+
     .banner-details h1 {
         font-size: 25px;
         display: inline;
         font-weight: 500;
         line-height: 40px;
     }
+
     /* banner tablet css here */
     .banner-image {
         width: 280.01px;
         height: auto;
         margin-right: 20px;
     }
-    
+
     .banner-image img {
         width: 100%;
     }
+
     /* player responsive for tablet */
     .player {
         width: 250px;
     }
-    .player-img{
+
+    .player-img {
         width: 250px;
         height: auto;
     }
-    .player-img img{
+
+    .player-img img {
         width: 100%;
     }
+
     /* highlight */
-    .highlight{
+    .highlight {
         height: 300px;
     }
+
     .heighlight-description h1 {
         font-weight: 700;
         font-size: 20px;
     }
+
     .heighlight-description p {
         font-weight: 300;
         font-size: 14px;
     }
+
     .highlight-image {
         Width: 367px;
         Height: 200px;
     }
+
     .highlight-image img {
         width: 100%;
     }
+
     /* signup section */
     .signup-section {
         height: 300px;
     }
+
     .signup-wrap h3 {
         font-size: 14px;
     }
-    
+
     .signup-wrap h1 {
         font-size: 25px;
     }
-  
+
 }
