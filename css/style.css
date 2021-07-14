@@ -84,6 +84,7 @@ li {
     background-color: #2D25A0;
     padding: 30px 0;
     border: 2px solid yellow;
+    width: 100%;
 }
 
 .banner-wrapper {
@@ -92,7 +93,7 @@ li {
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 0, 0);
 }
 
 .banner-details h1 {
@@ -213,16 +214,19 @@ li {
 .highlight-image img {
     width: 100%;
 }
+
 /* game schedule section */
-.games-schedule{
+.games-schedule {
     width: 80%;
     margin: 20px auto;
     border: 2px solid black;
 }
-.games-schedule h2{
+
+.games-schedule h2 {
     font-size: 30px;
 }
-.games-schedule-wrap{
+
+.games-schedule-wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -230,35 +234,41 @@ li {
     justify-items: center;
     border: 2px solid salmon;
 }
-.game{
+
+.game {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 10px 20px;
     border-radius: 10px;
 }
-.game-img{
-    width: 180px;
+
+.game-img {
+    width: 170px;
 }
-.game-img img{
+
+.game-img img {
     width: 100%;
     border-radius: 10px;
 }
-.game-details{
+
+.game-details {
     margin-left: 20px;
 }
-.game-details h1{
+
+.game-details h1 {
     font-size: 18px;
 }
-.game-details h2{
+
+.game-details h2 {
     font-size: 15px;
     background-color: #e02c6e1f;
     padding: 5px 10px;
     border-radius: 10px;
     color: #E02C6D;
-    margin-top: 10px;
 }
+
 /* signup css here */
 .signup-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
@@ -334,7 +344,7 @@ li {
 }
 
 .social-icon a {
-    color: rgb(155, 155, 155);
+  
     text-align: center;
     margin: 5px;
     padding: 10px 12px 8px 12px;
@@ -345,12 +355,12 @@ li {
 
 .social-icon a i {
     font-size: 20px;
+    color: gray;
 }
 
-.copyright{
+.copyright {
     font-size: 16px;
     color: gray;
     text-align: center;
     border: 1px solid red;
 }
-
