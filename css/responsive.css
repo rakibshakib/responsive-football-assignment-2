@@ -164,7 +164,7 @@
     }
 }
 /* tablet responsive code here  */
-@media (min-width: 425.01px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 1024px) {
 
     /* navbar css here  */
     .nav-items li a {
@@ -217,4 +217,35 @@
     .player-img img{
         width: 100%;
     }
+    /* highlight */
+    .highlight{
+        height: 300px;
+    }
+    .heighlight-description h1 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .heighlight-description p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .highlight-image {
+        Width: 367px;
+        Height: 200px;
+    }
+    .highlight-image img {
+        width: 100%;
+    }
+    /* signup section */
+    .signup-section {
+        height: 300px;
+    }
+    .signup-wrap h3 {
+        font-size: 14px;
+    }
+    
+    .signup-wrap h1 {
+        font-size: 25px;
+    }
+  
 }
