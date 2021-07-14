@@ -207,6 +207,51 @@ li {
     width: 100%;
 }
 
+/* signup css here */
+.signup-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../images/bg-match.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100%;
+}
+
+.signup-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    justify-content: center;
+    height: 100%;
+}
+
+.signup-wrap h3 {
+    font-size: 20px;
+}
+
+.signup-wrap h1 {
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.signup-wrap input {
+    padding: 10px 24px;
+    margin-top: 20px;
+}
+
+.signup-wrap input:focus {
+    outline: none;
+}
+
+.sign-btn {
+    background-color: #E02C6D;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
 /* footer section */
 .footer-section {
     display: flex;
@@ -245,9 +290,10 @@ li {
     font-size: 20px;
 }
 
-.footer-section p {
+.copyright{
     font-size: 16px;
     color: gray;
+    text-align: center;
 }
 
 /* css media queries here */
@@ -262,7 +308,6 @@ li {
     /* bannner responsive for mobile */
     .banner-wrapper {
         flex-direction: column;
-        border: 1px solid white;
     }
 
     .banner-details h1 {
@@ -294,27 +339,57 @@ li {
         margin-top: 20px;
         justify-items: center;
     }
+
     .player {
         width: 300px;
         padding: 20px;
     }
+
     /* highlight responsive optional for mobile*/
-    .highlight-section{
+    .highlight-section {
         display: none;
     }
-    
+
+    /* signup section css responsive */
+    .signup-section {
+        height: 235px;
+    }
+
+    .signup-wrap {
+        height: 100%;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .signup-wrap h3 {
+        font-size: 14px;
+    }
+
+    .signup-wrap h1 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .signup-wrap input {
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+
     /* footer responsive css here */
-  
-    .footer-images{
+
+    .footer-images {
         width: 170px;
     }
-    .footer-images img{
+
+    .footer-images img {
         width: 100%;
     }
-    .social-icon{
+
+    .social-icon {
         width: 170px;
         margin: 0 auto;
     }
+
     .social-icon a i {
         font-size: 15px;
     }
